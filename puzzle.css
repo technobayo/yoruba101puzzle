@@ -1,0 +1,326 @@
+#container{
+		background-color: #261303;
+		position: relative;
+		width: 800;
+		height: 800;
+		margin:auto;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		color:white;
+	}
+
+	#header{
+		background-color: #edb528;
+		position: relative;
+		width: 800;
+		height: 100;
+		top:0px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	#footer{
+		color:white;
+		position: absolute;
+		bottom:5px;
+		right:5px;
+		/*background-color: #edb528;
+		width: 330;
+		height:120;*/
+		font-family: Calibri, Helvetica, Arial, Sans-Serif;
+		font-size: small;
+	}
+
+	#puzzle {
+		background-color: black;
+		position: absolute;
+		width: 455;
+		height: 420;
+		top:250px;
+		left:5px;
+		border-radius: 5px;
+	}
+
+	#puzzleinfo
+	{
+		width: 330;
+		height: 420;
+		background-color: #404041;
+		position: absolute;
+		right: 5px;
+		top: 250px;
+		color: white;
+		border-radius: 5px;
+	}
+
+	#acrossdiv{
+		width: 95%;
+		height: 200;
+		position: absolute;
+		top: 5px;
+		left:8px;
+		
+	}
+
+	#downdiv{
+		width: 95%;
+		height: 200;
+		position: absolute;
+		left: 8px;
+		bottom: 2px;
+		
+	}
+
+textarea#txtacross	{
+	width: 100%;
+	height: 85%;
+	border-radius: 5px;
+	position: absolute;
+	top: 20px;
+	left:0;	
+}
+
+textarea#txtdown{
+	width: 100%;
+	height: 85%;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	top:20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h3, h4{
+		padding-left: 20px;
+		padding-right: 10px;
+		color: white;
+		font-family: Calibri, Helvetica, Arial, Sans-Serif;
+	}
+
+	img {
+		padding-top: 1px;
+		padding-right: 10px;
+	}
+
+input{
+	width:35px;
+	height:35px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: medium;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.btncss {
+	width:180px;
+	height:40px;
+	background: #edb528;
+	border-radius: 5px;
+	color: #261303;
+}
+
+div#btndiv{
+	text-align: center;
+}
+
+div#status{
+	color: yellow;
+	text-align: right;
+	width: 455;
+	font-family: Calibri, Helvetica, Arial, Sans-Serif;
+}
+
+.correct{
+	color: blue;
+}
+
+.wrong{
+	color: red;
+}
+
+.default{
+	color:black;
+}
+
+#A02{
+	background:url("images/tiles/tiles-01.png") no-repeat top left ;
+}
+
+#A03{
+	background:url("images/tiles/tiles-02.png") no-repeat top left ;
+}
+
+#A04{
+	background:url("images/tiles/tiles-03.png") no-repeat top left ;
+}
+
+#A06{
+	background:url("images/tiles/tiles-04.png") no-repeat top left ;
+}
+
+#A10{
+	background:url("images/tiles/tiles-05.png") no-repeat top left ;
+}
+
+#B01{
+	background:url("images/tiles/tiles-06.png") no-repeat top left ;
+}
+
+#B03{
+	background:url("images/tiles/tiles-07.png") no-repeat top left ;
+}
+
+#B05{
+	background:url("images/tiles/tiles-08.png") no-repeat top left ;
+}
+
+#B10{
+	background:url("images/tiles/tiles-09.png") no-repeat top left ;
+}
+
+#B13{
+	background:url("images/tiles/tiles-10.png") no-repeat top left ;
+}
+
+#C01{
+	background:url("images/tiles/tiles-11.png") no-repeat top left ;
+}
+
+#C08{
+	background:url("images/tiles/tiles-12.png") no-repeat top left ;
+}
+
+#D03{
+	background:url("images/tiles/tiles-13.png") no-repeat top left ;
+}
+
+#D08{
+	background:url("images/tiles/tiles-14.png") no-repeat top left ;
+}
+
+#D09{
+	background:url("images/tiles/tiles-15.png") no-repeat top left ;
+}
+
+#D11{
+	background:url("images/tiles/tiles-16.png") no-repeat top left ;
+}
+
+#D12{
+	background:url("images/tiles/tiles-17.png") no-repeat top left ;
+}
+
+#E01{
+	background:url("images/tiles/tiles-18.png") no-repeat top left ;
+}
+
+#E02{
+	background:url("images/tiles/tiles-19.png") no-repeat top left ;
+}
+
+#E06{
+	background:url("images/tiles/tiles-20.png") no-repeat top left ;
+}
+
+#E07{
+	background:url("images/tiles/tiles-21.png") no-repeat top left ;
+}
+
+#E10{
+	background:url("images/tiles/tiles-22.png") no-repeat top left ;
+}
+
+#F01{
+	background:url("images/tiles/tiles-23.png") no-repeat top left ;
+}
+
+#F03{
+	background:url("images/tiles/tiles-24.png") no-repeat top left ;
+}
+
+#F05{
+	background:url("images/tiles/tiles-25.png") no-repeat top left ;
+}
+
+#F09{
+	background:url("images/tiles/tiles-26.png") no-repeat top left ;
+}
+
+#G02{
+	background:url("images/tiles/tiles-27.png") no-repeat top left ;
+}
+
+#G04{
+	background:url("images/tiles/tiles-28.png") no-repeat top left ;
+}
+
+#G10{
+	background:url("images/tiles/tiles-29.png") no-repeat top left ;
+}
+
+#G12{
+	background:url("images/tiles/tiles-30.png") no-repeat top left ;
+}
+
+#H03{
+	background:url("images/tiles/tiles-31.png") no-repeat top left ;
+}
+
+#H11{
+	background:url("images/tiles/tiles-32.png") no-repeat top left ;
+}
+
+#I02{
+	background:url("images/tiles/tiles-33.png") no-repeat top left ;
+}
+#I07{
+	background:url("images/tiles/tiles-34.png") no-repeat top left ;
+}
+#I08{
+	background:url("images/tiles/tiles-35.png") no-repeat top left ;
+}
+#J01{
+	background:url("images/tiles/tiles-36.png") no-repeat top left ;
+}
+#J03{
+	background:url("images/tiles/tiles-37.png") no-repeat top left ;
+}
+#J10{
+	background:url("images/tiles/tiles-38.png") no-repeat top left ;
+}
+#K01{
+	background:url("images/tiles/tiles-39.png") no-repeat top left ;
+}
+#L01{
+	background:url("images/tiles/tiles-40.png") no-repeat top left ;
+}
+#L05{
+	background:url("images/tiles/tiles-41.png") no-repeat top left ;
+}
+
+
+#A02,#A03,#A04,#A06,#A07,#A08,#A09,#A10,#B01,#B03,#B04,#B05,#B10,#B11, #B12, #B13,#C01,#C02,
+#C03,#C04,#C05,#C06,#C07,#C08,#C10,#C13,#D01,#D03,#D04,#D05,#D08,#D09,#D11,#D12,#D13,
+#E01,#E02,#E04,#E06,#E07,#E08,#E09,#E10,#E11,#E12,#F01,#F02,#F03,#F05,#F07,#F09,#F10,#F11,
+#G02,#G03,#G04,#G05,#G07,#G10,#G11,#G12,#H03,#H04,#H05,#H07,#H11,#H12,#H13,
+#I02,#I04,#I07,#I08,#I09, #I12,#J01,#J02,#J03,#J04,#J05,#J08,#J10,#J11,#J12,#J13,
+#K01,#K02,#K03,#K04,#K08,#K10,#K12,#L01,#L02,#L03,#L05,#L06,#L07,#L08,#L09,#L10 {
+	background-color: white;
+	text-align: center;
+}
+
+#A01, #A05, #A11, #A12, #A13, #B02,#B06,#B07,#B08,#B09, #C09,#C11,#C12, #D02, #D06, #D07,#D10,
+#E03, #E05, #E13, #F04, #F06,#F08,#F12,#F13, #G01, #G06, #G08, #G09,#G13, 
+#H01, #H02, #H06, #H08, #H09, #H10, #I01, #I03, #I05, #I06, #I10, #I11,#I13, 
+#J06, #J07, #J09, #K05, #K06, #K07, #K09, #K11, #K13, #L04, #L11, #L12, #L13{
+	/*background-color: yellow;*/
+	visibility: hidden;
+}
+
