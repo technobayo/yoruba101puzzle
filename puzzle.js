@@ -86,9 +86,9 @@ var correctAns = {
 	correctAns6: ["A","Y","Ọ","I","A","I","Ṣ","E"],
 	correctAns7: ["Ẹ","Ṣ","I","N","N","Ọ","L","A"],
 	correctAns8: ["Ẹ","R","U","G","E","W","Ọ"],
-	correctAns9: ["O","A","Ọ","Y","Ọ","A"],
+	correctAns9: ["O","A","O","D","O","A"],
 	correctAns10: ["I","Y","A","W","O","A","O","N","K","A"],
-	correctAns11: ["Y","I","P","O","R","B","Ọ"],
+	correctAns11: ["Y","I","P","Ọ","R","B","Ọ"],
 	correctAns12: ["Ọ","N","A","W","A","K","A","T","I"]
 };
 
