@@ -11,6 +11,9 @@ function init()
 {
 	var btnid = document.getElementById("btneval");
 	btnid.onclick = EvaluatePuzzle;
+	btnid.disabled = false;	//enable the button
+	btnid.setAttribute("class","btncss");
+	ClearFields();
 }
 
 function EvaluatePuzzle()
@@ -133,7 +136,6 @@ var cellIds = {
 	document.getElementById("L05"),document.getElementById("L06"),document.getElementById("L07"),
 	document.getElementById("L08"),document.getElementById("L09"),document.getElementById("L10")]
 };
-
 
 //Declare Object v with different functions
 var v = {
@@ -353,6 +355,9 @@ var v = {
 	
 function ResetCells()
 {
+	var btnid = document.getElementById("btneval");
+	btnid.disabled = false;	//enable the button
+	btnid.setAttribute("class","btncss");
 
 	for(var i = 0;i<cellIds.id1.length;i++){
 		cellIds.id1[i].setAttribute("class","default");
@@ -404,4 +409,129 @@ function ResetCells()
 
 	init();
 	v.DisplayResult("Score:");
+	ClearFields();
 }
+
+//Reveal answers
+function ShowCorrectAnswer()
+{
+		var btnid = document.getElementById("btneval");
+		btnid.disabled = true;	//disable the button
+		btnid.setAttribute("class","btncssdisabled");
+		v.DisplayResult("Score:");
+
+		for(var i=0;i<cellIds.id1.length;i++)
+		{
+			cellIds.id1[i].value = correctAns.correctAns1[i];
+			cellIds.id1[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id2.length;i++)
+		{
+			cellIds.id2[i].value = correctAns.correctAns2[i];
+			cellIds.id2[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id3.length;i++)
+		{
+			cellIds.id3[i].value = correctAns.correctAns3[i];
+			cellIds.id3[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id4.length;i++)
+		{
+			cellIds.id4[i].value = correctAns.correctAns4[i];
+			cellIds.id4[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id5.length;i++)
+		{
+			cellIds.id5[i].value = correctAns.correctAns5[i];
+			cellIds.id5[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id6.length;i++)
+		{
+			cellIds.id6[i].value = correctAns.correctAns6[i];
+			cellIds.id6[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id7.length;i++)
+		{
+			cellIds.id7[i].value = correctAns.correctAns7[i];
+			cellIds.id7[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id8.length;i++)
+		{
+			cellIds.id8[i].value = correctAns.correctAns8[i];
+			cellIds.id8[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id9.length;i++)
+		{
+			cellIds.id9[i].value = correctAns.correctAns9[i];
+			cellIds.id9[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id10.length;i++)
+		{
+			cellIds.id10[i].value = correctAns.correctAns10[i];
+			cellIds.id10[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id11.length;i++)
+		{
+			cellIds.id11[i].value = correctAns.correctAns11[i];
+			cellIds.id11[i].setAttribute("class","answers");
+		}
+		for(var i=0;i<cellIds.id12.length;i++)
+		{
+			cellIds.id12[i].value = correctAns.correctAns12[i];
+			cellIds.id12[i].setAttribute("class","answers");
+		}
+}
+
+//Clear fields
+function ClearFields()
+{
+		for(var i=0;i<cellIds.id1.length;i++)
+		{
+			cellIds.id1[i].value = "";
+		}
+		for(var i=0;i<cellIds.id2.length;i++)
+		{
+			cellIds.id2[i].value = "";
+		}
+		for(var i=0;i<cellIds.id3.length;i++)
+		{
+			cellIds.id3[i].value = "";
+		}
+		for(var i=0;i<cellIds.id4.length;i++)
+		{
+			cellIds.id4[i].value = "";
+		}
+		for(var i=0;i<cellIds.id5.length;i++)
+		{
+			cellIds.id5[i].value = "";
+		}
+		for(var i=0;i<cellIds.id6.length;i++)
+		{
+			cellIds.id6[i].value = "";
+		}
+		for(var i=0;i<cellIds.id7.length;i++)
+		{
+			cellIds.id7[i].value = "";
+		}
+		for(var i=0;i<cellIds.id8.length;i++)
+		{
+			cellIds.id8[i].value = "";
+		}
+		for(var i=0;i<cellIds.id9.length;i++)
+		{
+			cellIds.id9[i].value = "";
+		}
+		for(var i=0;i<cellIds.id10.length;i++)
+		{
+			cellIds.id10[i].value = "";
+		}
+		for(var i=0;i<cellIds.id11.length;i++)
+		{
+			cellIds.id11[i].value = "";
+		}
+		for(var i=0;i<cellIds.id12.length;i++)
+		{
+			cellIds.id12[i].value = "";
+		}
+}
+

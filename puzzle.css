@@ -33,6 +33,16 @@
 		font-size: small;
 	}
 
+	#footeremail{
+		color:white;
+		position: absolute;
+		padding-left: 20px;
+		bottom:5px;
+		left:5px;
+		font-family: Calibri, Helvetica, Arial, Sans-Serif;
+		font-size: small;
+	}
+
 	#puzzle {
 		background-color: black;
 		position: absolute;
@@ -126,8 +136,17 @@ input{
 	color: #261303;
 }
 
+.btncssdisabled {
+	width:180px;
+	height:40px;
+	background: gray;
+	border-radius: 5px;
+	color: #261303;
+}
+
 div#btndiv{
 	text-align: center;
+	width:600;
 }
 
 div#status{
@@ -143,6 +162,10 @@ div#status{
 
 .wrong{
 	color: red;
+}
+
+.answers{
+	color: green;
 }
 
 .default{
